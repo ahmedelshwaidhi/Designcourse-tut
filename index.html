@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Design</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+
+          <img src="images/logo.svg" alt="logo brand" class="logo">
+          
+
+            <nav>
+
+               
+                    <a href="" class="hide-desktop">
+
+                        
+                        <img src="images/ham.svg" alt="hambuger button" class="menu"  id="menu">
+                     
+                    </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                       <li><img src="images/exit.svg" alt="exitbutton" class="exit" id="exit"></li>
+                       <li><a href="">Home</a></li>
+                       <li><a href="">Service</a></li>
+                       <li><a href="">Location</a></li>
+                       <li><a href="">Contact</a></li>
+
+
+                </ul>
+
+
+            </nav>
+        </header>
+
+
+        <section>
+            
+            
+            <img src="images/server.svg" alt="illustration" class="illustation">
+            <h1>Web Hosting for the modern era</h1>
+            <p class="paragraph">Go serverless and pay only for what you use</p>
+            <img src="images/scroll.svg" alt="scroll" class="scroll show-desktop hide-mobile">
+
+
+
+        </section>
+
+
+
+
+
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="calender logo">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam iste sunt, optio repellat accusantium laudantium fugiat asperiores officia doloremque! Quod reprehenderit molestiae asperiores inventore iusto, officiis ex eos cupiditate commodi.</p>
+                </li>
+
+                <li>
+                    <img src="images/icon-2.svg" alt="calender logo">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam iste sunt, optio repellat accusantium laudantium fugiat asperiores officia doloremque! Quod reprehenderit molestiae asperiores inventore iusto, officiis ex eos cupiditate commodi.</p>
+                </li>
+
+                <li>
+                    <img src="images/icon-3.svg" alt="calender logo" class="phone" > 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam iste sunt, optio repellat accusantium laudantium fugiat asperiores officia doloremque! Quod reprehenderit molestiae asperiores inventore iusto, officiis ex eos cupiditate commodi.</p>
+                </li>
+                
+
+
+
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <div class="grey-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="user1">
+                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima unde autem qui aperiam perspiciatis, officia, quisquam quaerat repudiandae dicta veritatis incidunt recusandae illo. Illo exercitationem labore ullam numquam, neque debitis.</blockquote>
+                        <figcaption>-Chloe</figcaption>
+
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="user2">
+                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima unde autem qui aperiam perspiciatis, officia, quisquam quaerat repudiandae dicta veritatis incidunt recusandae illo. Illo exercitationem labore ullam numquam, neque debitis.</blockquote>
+                        <figcaption>-Gaddafi</figcaption>
+
+                    </figure>
+                </li>
+            </ul>
+
+
+
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2>Start your free trial</h2>
+        <a href="#" class="button">Get started</a>
+
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                
+                <a href="#">
+                    <img src="images/logo-white.svg" alt="footer-logo" class="logo">
+                </a>
+
+                <p class="address">Berkah , 90437<br>Libya</p>
+
+                <ul class="footer-links">
+                    <li><a href="#">terms of service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+        
+
+            </div>
+        
+            
+            
+        </div>a
+
+
+
+
+    </footer>
+    <script>
+        var menu=document.getElementById('menu');
+        var nav=document.getElementById('nav');
+        var exit=document.getElementById('exit');
+
+        menu.addEventListener('click' , function (e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventListener('click' , function (e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>
